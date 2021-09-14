@@ -1,0 +1,46 @@
+/* valid */
+
+._my-div {
+    color: rgb(175, 199, 42);
+}
+
+
+/* valid */
+
+.my-div {
+    color: rgb(42, 110, 199);
+}
+
+
+/* not valid */
+
+.12my-div {}
+
+
+/* not valid */
+
+.%my-div {}
+
+
+/* not valid */
+
+.@my-div {}
+
+
+/* not valid */
+
+.my@div {}
+
+
+/* valid */
+
+._my7Bdiv {
+    text-align: center;
+}
+
+
+/* valid */
+
+.div {
+    font-style: oblique;
+}
