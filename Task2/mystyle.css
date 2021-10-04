@@ -1,0 +1,25 @@
+.mydiv {
+    width: 300px;
+    padding: 20px;
+    margin: 10px
+}
+
+.bg-color1 {
+    background-color: #a6a0f3;
+}
+
+.bg-color2 {
+    background-color: #2e2d79;
+}
+
+.bg-color3 {
+    background-color: #ced7d8;
+}
+
+.color1 {
+    color: #2e2d79;
+}
+
+.color2 {
+    color: white;
+}
