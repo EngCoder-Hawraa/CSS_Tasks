@@ -1,0 +1,24 @@
+.mydiv1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+.mydiv2 {
+    width: 250px;
+    background-size: 400px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.bg-image1 {
+    background-image: url(img.jpg);
+}
+
+.bg-image2 {
+    background-image: url(index.jpg);
+}
+
+.color {
+    color: white;
+}
