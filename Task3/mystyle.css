@@ -1,0 +1,22 @@
+.mydiv {
+    width: 400px;
+    height: 400px;
+    background-image: url(img.jpg);
+    padding: 20px;
+}
+
+.repeat1 {
+    background-repeat: no-repeat;
+}
+
+.repeat2 {
+    background-repeat: repeat-x;
+}
+
+.repeat3 {
+    background-repeat: repeat-y;
+}
+
+.repeat4 {
+    background-repeat: repeat-x repeat-y;
+}
