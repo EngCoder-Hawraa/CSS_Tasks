@@ -1,0 +1,10 @@
+.mydiv {
+    border-left: 6px solid red;
+    background-color: rgb(219, 215, 215);
+    padding: 20px;
+}
+
+.my-style {
+    color: red;
+    font-size: 20px;
+}
