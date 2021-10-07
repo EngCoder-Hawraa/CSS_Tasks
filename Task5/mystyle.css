@@ -1,9 +1,12 @@
 .mydiv {
-    height: 300px;
-    width: 280px;
-    /* margin: 20px; */
-    padding: 30px;
+    height: 350px;
+    width: 350px;
     border: 8px red;
+    margin: 20px 30px;
+}
+
+p {
+    padding: 20px;
 }
 
 .border1 {
@@ -12,12 +15,21 @@
 
 .border2 {
     border-style: none dashed;
+}
+
+.background-color {
     background-color: rgb(47, 7, 85);
-    color: white;
 }
 
 .border3 {
     border-style: dashed none solid;
+}
+
+.background-color1 {
     background-color: rgb(188, 181, 194);
+}
+
+.border2,
+p.border3 {
     color: white;
 }
