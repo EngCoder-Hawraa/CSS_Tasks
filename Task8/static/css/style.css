@@ -1,0 +1,329 @@
+body {
+    margin: 0px;
+    font-family: fantasy;
+    line-height: 1.8;
+}
+
+a,
+.login,
+.h {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+.header,
+.project1,
+.project2 {
+    padding: 10px
+}
+
+.header {
+    background-color: beige;
+}
+
+.dig,
+.login,
+.l,
+.h,
+.d {
+    color: deeppink;
+}
+
+.email,
+.number,
+.d,
+.service {
+    font-size: 25px;
+}
+
+.facebook,
+.home,
+.about,
+.services,
+.project,
+.contact {
+    font-size: 20px;
+}
+
+.dig,
+.i,
+.a {
+    font-size: 40px;
+}
+
+.facebook,
+.twitter,
+.home,
+.about,
+.services,
+.project,
+.contact {
+    margin-right: 20px;
+}
+
+.email,
+.number,
+.phone {
+    margin-left: 10px;
+}
+
+.dig,
+.envelop,
+.l,
+.L {
+    margin-left: 50px;
+}
+
+.login,
+.h {
+    border: 2px solid deeppink;
+}
+
+.login,
+.user1,
+.user2 {
+    background-color: white;
+}
+
+.login,
+.h {
+    border-radius: 25px;
+}
+
+.search,
+.project1,
+.service1,
+.project2,
+.service2 {
+    float: left;
+}
+
+.l,
+.d {
+    font-weight: bolder;
+}
+
+.l,
+h1 {
+    font-size: 50px;
+}
+
+.s,
+.project1,
+.project2 {
+    font-size: 30px;
+}
+
+.h:hover,
+.service,
+.w::before,
+.w2::after {
+    color: white
+}
+
+
+/*  */
+
+.envelop {
+    margin-top: 5px
+}
+
+.facebook {
+    margin-left: 700px;
+}
+
+.navbar {
+    padding-top: 10px
+}
+
+.i {
+    color: rgb(30, 129, 195)
+}
+
+.a {
+    color: rgb(140, 216, 19);
+}
+
+.home {
+    margin-left: 500px;
+}
+
+.login,
+.h {
+    padding: 10px 30px;
+}
+
+.login,
+.service2 {
+    margin-left: 40px;
+}
+
+.computer {
+    height: 500px;
+    float: right
+}
+
+.l,
+.search {
+    margin-left: 300px
+}
+
+.l {
+    padding-top: 200px;
+}
+
+.e,
+.d {
+    margin-left: 600px;
+}
+
+h1,
+.s,
+.service,
+.project1,
+.w::before,
+.project2,
+.w2::after {
+    text-align: center;
+}
+
+.d,
+h1 {
+    padding-top: 100px;
+}
+
+.h {
+    margin-left: 70px;
+}
+
+.h:hover {
+    background-color: deeppink;
+}
+
+.search {
+    height: 400px;
+    width: 250px;
+}
+
+.service1,
+.service2 {
+    width: 200px;
+}
+
+.service1 {
+    background-color: rgb(105, 12, 62);
+}
+
+.service2,
+.w::before,
+.w2::after {
+    background-color: black;
+}
+
+.service2 {
+    height: 212px;
+}
+
+.div {
+    padding-top: 30px;
+    padding-left: 55px
+}
+
+.img,
+.w::after,
+.w2::before {
+    border-radius: 50%
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+}
+
+.project1,
+.project2 {
+    counter-increment: members-counter;
+}
+
+.project1,
+.project2 {
+    width: 600px;
+    position: relative;
+    margin-bottom: 40px;
+    margin-left: 350px;
+}
+
+.project1 {
+    border-radius: 0px 50px 50px 0px;
+    background-color: rgb(30, 129, 195);
+}
+
+.project2 {
+    border-radius: 50px 0px 0px 50px;
+    background-color: rgb(121, 6, 102);
+}
+
+.user1,
+.user2 {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-style: solid;
+    top: 50%;
+    margin-top: -50px;
+    border-width: 50px;
+}
+
+.user1 {
+    left: -100px;
+    border-color: transparent black transparent transparent;
+}
+
+.user2 {
+    left: 620px;
+    border-color: transparent transparent transparent black;
+}
+
+.w::before,
+.w2::after {
+    content: counter(members-counter);
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    font-weight: bold;
+    top: 15%;
+}
+
+.w::before {
+    right: 560px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.w2::after {
+    right: -10px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.w::after,
+.w2::before {
+    content: '';
+    background-image: url(images/baby.jpg);
+    bottom: 2px;
+    position: absolute;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+
+.w::after {
+    right: 2px;
+    left: 545px;
+}
+
+.w2::before {
+    left: 2px;
+}
